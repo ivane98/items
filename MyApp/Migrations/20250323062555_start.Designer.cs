@@ -12,8 +12,8 @@ using MyApp.Data;
 namespace MyApp.Migrations
 {
     [DbContext(typeof(MyAppContext))]
-    [Migration("20240718173237_Many to Many")]
-    partial class ManytoMany
+    [Migration("20250323062555_start")]
+    partial class start
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
